@@ -11,7 +11,7 @@ import streamlit as st
 @st.cache
 def load_data():
     '''Lecture du fichier csv'''
-    data_path = 'Data/collected_data_4.csv'
+    data_path = 'collected_data_4.csv'
     data = pd.read_csv(data_path)
     return data
 
